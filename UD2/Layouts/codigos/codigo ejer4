@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Encabezados de la tabla -->
+    <TableRow>
+        <TextView
+            android:text="Año"
+            android:textStyle="bold"
+            android:textColor="#33CC33"
+            android:padding="8dp"
+            android:gravity="center"/>
+        <TextView
+            android:text="Ciudad"
+            android:textStyle="bold"
+            android:textColor="#33CC33"
+            android:padding="8dp"
+            android:gravity="center"/>
+        <TextView
+            android:text="Oro"
+            android:textStyle="bold"
+            android:textColor="#33CC33"
+            android:padding="8dp"
+            android:gravity="center"/>
+        <TextView
+            android:text="Plata"
+            android:textStyle="bold"
+            android:textColor="#33CC33"
+            android:padding="8dp"
+            android:gravity="center"/>
+        <TextView
+            android:text="Bronce"
+            android:textStyle="bold"
+            android:textColor="#33CC33"
+            android:padding="8dp"
+            android:gravity="center"/>
+    </TableRow>
+
+    <!-- Creamos la barra divisoria entre el encabezado y los datos -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <!-- Filas de datos -->
+    <TableRow>
+        <TextView
+            android:text="1900"
+            android:padding="8dp"/>
+        <TextView
+            android:text="París"
+            android:padding="8dp"/>
+        <TextView
+            android:text="1"
+            android:padding="8dp"/>
+        <TextView
+            android:text=""
+            android:padding="8dp"/>
+        <TextView
+            android:text=""
+            android:padding="8dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="1976"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Montreal"
+            android:padding="8dp"/>
+        <TextView
+            android:text=""
+            android:padding="8dp"/>
+        <TextView
+            android:text="2"
+            android:padding="8dp"/>
+        <TextView
+            android:text=""
+            android:padding="8dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="1992"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Barcelona"
+            android:padding="8dp"/>
+        <TextView
+            android:text="13"
+            android:padding="8dp"/>
+        <TextView
+            android:text="7"
+            android:padding="8dp"/>
+        <TextView
+            android:text="2"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="2012"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Londres"
+            android:padding="8dp"/>
+        <TextView
+            android:text="3"
+            android:padding="8dp"/>
+        <TextView
+            android:text="10"
+            android:padding="8dp"/>
+        <TextView
+            android:text="4"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <!-- Fila de total de medallas -->
+    <TableRow>
+
+        <TextView
+            android:text=""
+            android:padding="8dp"/>
+
+        <TextView
+            android:padding="8dp"
+            android:text="Total"
+            android:textStyle="bold"
+            android:textColor="#0000FF"
+            android:gravity="right"/>
+
+        <TextView
+            android:text="17"
+            android:padding="8dp"/>
+        <TextView
+            android:text="19"
+            android:padding="8dp"/>
+        <TextView
+            android:text="6"
+            android:padding="8dp"/>
+    </TableRow>
+
+
+</TableLayout>
